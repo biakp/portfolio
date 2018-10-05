@@ -1,0 +1,27 @@
+hr {
+  height: 3px;
+  background-image: linear-gradient(to right, #5fc3e4 10%, #e55de5 90%);
+}
+h2 {
+  padding: 2%;
+}
+.blur:hover {
+  transition: 0.6s;
+  filter: blur(4px);
+}
+.card {
+  border: 0px;
+}
+.card-body {
+  border-radius: 10px;
+}
+.btn {
+  border: 0px;
+  background-image: linear-gradient(to right, #5fc3e4 10%, #e55de5 90%);
+}
+.card-title {
+  padding-top: 5%;
+  background: -webkit-linear-gradient(#5fc3e4, #e55de5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
